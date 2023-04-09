@@ -10,6 +10,10 @@ cd ..
 mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 list of nothing, effectively returning another command prompt
+UPDATE: When running the ls command in a directory with files a list of files is returned. Everything is presented as a file in linux,
+this includes directories and even devices connected to the computer. Further more virtual devices are also represented as files. 
+With this understood using flags like '--lah' returns a long listing with directories included with a preceding . and h providing human
+readable representations of file sizes, or unit suffixes as it is described by the man page for the ls commannd. 
 # 6 - What is a quick way to create a new file?
 touch
 # 7 - Run 'git --version' in your terminal. What is the output?
